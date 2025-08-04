@@ -1,10 +1,7 @@
 import re
 import statistics
 from dataclasses import dataclass
-try:
-    from typing import NotRequired, TypedDict
-except ImportError:
-    from typing_extensions import NotRequired, TypedDict
+from typing_extensions import NotRequired, TypedDict
     
 from .models import (
     BackwardResponse,
